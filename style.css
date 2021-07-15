@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+font-family: 'Noto Sans', sans-serif;
+text-transform: capitalize;
+line-height: 1.6;
+
+}
+h1,h2,h3,p{
+    margin: 0;
+}
+main{
+    display: flex;
+}
+main>*{
+    flex-basis: 100%;
+}
+.bg-image{
+    background: url(https://images.unsplash.com/photo-1586058584825-c1e87ed735b4?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmJxfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=60),linear-gradient(45deg,blue,red);
+    background-size: cover;
+    padding:1em;
+    height:100vh;
+    display: grid;
+    place-items: center;
+    background-blend-mode:multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.title{
+    font-size:2.7rem;
+    text-align: center;
+    font-weight:400;
+    margin:auto 0;
+}
+.content{
+    text-align: center;
+    font-size:1.1rem;
+    width:50%;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin:0 auto;
+    height: 100%;
+    
+}
+.form-section{
+    height: 100vh;
+    padding:2em;
+    margin:0 auto;
+    text-align: center;
+    background:linear-gradient(70deg,orange,red);
+    display: grid;
+    place-items: center;
+    place-content: center;
+    
+    opacity:1;
+}
+.form-div{
+    padding: 1em;
+    display: grid;
+    gap:1em;
+   text-align: center;
+   
+   place-items: center;
+   margin:0 auto;
+   color: white;
+}
+.form-div h2{
+font-size:2rem;
+}
+button,input{
+    border:none;
+    outline:none;
+    padding:.4em .8em;
+    border-radius: 6px;
+}
+button{
+    background: linear-gradient(123.52930537907741deg, rgba(248, 188, 79,1) 7.354166666666668%,rgba(211, 21, 87,1) 93.1875%);
+    color: white;
+    font-weight:bold;
+    font-size: 1.2rem;
+    border-radius: 6px;
+
+}
+
+button:hover{
+    background-position:40px 20px;
+    transition:.5s ;
+}
+input{
+    padding:.8em 1em;
+}
